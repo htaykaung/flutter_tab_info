@@ -1,0 +1,27 @@
+{
+    "name": "Get Tab Info",
+    "description": "Get Tab Information",
+    "version": "1.0.0",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/Icon-192.png"
+    },
+    "icons": {
+        "16": "icons/Icon-192.png",
+        "48": "icons/Icon-192.png",
+        "128": "icons/Icon-192.png"
+    },
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "scripting",
+        "activeTab",
+        "cookies"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ]
+}
